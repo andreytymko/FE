@@ -1,0 +1,15 @@
+box-model
+    content
+    border
+    padding
+    margin
+
+outline  не входит в box model:
+в отличие от border , outline забирает часть padding
+top ->right->...
+При вертикальном расположении блоков margin 
+с болшим значением поглощает с меньшим значением
+
+Переделать дз чтобы каждая секция была в отдельном css файле 
+
+
