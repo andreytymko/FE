@@ -45,7 +45,7 @@
       <ul class="submenu2">
         <li><a href="#">MENU 2.1</a></li>
         <li><a href="#">MENU 2.2</a></li>
-        <li class="workingLink"><a href="https://www.google.com/"  target="blank">CLICK HERE</a></li>
+        <li class="workingLink"><a href="https://www.google.com/"  target="blank">MENU 2.3</a></li>
       </ul>
       </li>
       <li><a href="#">MENU 3</a></li>
@@ -57,7 +57,7 @@
     <li><a href="#" class="menu__subitem">MENU 2</a>
     <ul class="submenu2">
       <li><a href="#">MENU 2.1</a></li>
-      <li><a href="#">MENU 2.2</a></li>
+      <li class="workingLink"><a href="https://andreytymko.github.io/" target="blank" >CLICK!!</a></li>
       <li><a href="#">MENU 2.3</a></li>
     </ul>
     </li>
@@ -86,7 +86,7 @@
 <a href="#" title="Вернуться к началу" class="topbutton"><img src="img/gloveUp.jpg" alt=""></a>
 <div class="all">
   <input checked type="radio" name="respond" id="desktop">
-    <article id="slider">
+    <div id="slider">
         <input checked type="radio" name="slider" id="switch1">
         <input type="radio" name="slider" id="switch2">
         <input type="radio" name="slider" id="switch3">
@@ -95,11 +95,11 @@
       <div id="slides">
         <div id="overflow">
           <div class="image">
-            <article><img src="img/slider5.jpg" alt=""></article>
-            <article><img src="img/slider2.jpg" alt=""></article>
-            <article><img src="img/slider3.jpg" alt=""></article>
-            <article><img src="img/slider4.jpg" alt=" "></article>
-            <article><img src="img/slider1.jpg" alt=""></article>
+            <div class="article"><img src="img/slider5.jpg" alt=""></div>
+            <div class="article"> <img src="img/slider2.jpg" alt=""></div>
+            <div class="article"><img src="img/slider3.jpg" alt=""></div>
+            <div class="article"><img src="img/slider4.jpg" alt=" "></div>
+            <div class="article"><img src="img/slider1.jpg" alt=""></div>
           </div>
         </div>
       </div>
@@ -117,7 +117,7 @@
         <label for="switch4"></label>
         <label for="switch5"></label>
       </div>
-    </article>
+    </div>
 </div>
 </div>
 <div class="blueColor">
@@ -210,32 +210,32 @@
       <div class="advantageCard">
         <div class="photoAdv"></div>
         <h4 >ADVANTAGE</h4>
-        <p><div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div></p>
+       <div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div>
       </div>
     <div class="advantageCard">
         <div class="photoAdv"></div>
         <h4>ADVANTAGE</h4>
-        <p><div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div></p>
+        <div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div>
       </div>
       <div class="advantageCard">
           <div class="photoAdv"></div>
           <h4>ADVANTAGE</h4>
-          <p><div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div></p>
+         <div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div>
       </div>
       <div class="advantageCard">
           <div class="photoAdv"></div>
           <h4>ADVANTAGE</h4>
-          <p><div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div></p>
+         <div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div>
       </div>
       <div class="advantageCard">
           <div class="photoAdv"></div>
           <h4>ADVANTAGE</h4>
-          <p><div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div></p>
+          <div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div>
       </div>
       <div class="advantageCard">
           <div class="photoAdv"></div>
           <h4>ADVANTAGE</h4>
-          <p><div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div></p>
+          <div class="">s aperiam. Reiciendis repellat officiis nihil illum culpa sapiente magni a!</div>
       </div>
       
 
@@ -259,26 +259,26 @@
     <form method="post" action="mailto:'andreyka.tima@gmail.com'">
       <div>
         <label for="name">Name</label>
-        <input type="text" name="name" required>
+        <input type="text" name="name" id="name" required>
       </div>
       <div class="radio">
         <span>Sex</span>
         <label>
-          <input type="radio" name="sex" value="мужской" class="male">male
-          <div class="radio-control male"></div>
+          <input type="radio" name="sex" value="мужской" class="male"><span>male</span>
+          <span class="radio-control male"></span>
         </label>
         <label>
-          <input type="radio" name="sex" value="женский" class="female">female
-          <div class="radio-control female"></div>
+          <input type="radio" name="sex" value="женский" class="female"><span>female</span>
+          <span class="radio-control female"></span>
         </label>
       </div>
       <div>
         <label for="email">E-mail</label>
-        <input type="email" name="email" required>
+        <input type="email" id="email" name="email" required>
       </div>
       <div>
         <label for="country">City</label>
-        <select name="country">
+        <select name="country" id="country">
           <option>City</option>
           <option value="Россия">Kyiv</option> 
           <option value="Украина">Brovary</option> 
@@ -321,7 +321,7 @@
 </div>
 <div class="footerMenu">
 <div class="footerLogo">
-<div><a href="#"><img src="img/logo.png" alt="" width="100px"></a></div>
+<div><a href="#"><img src="img/logo.png" alt="" class="footerImg"></a></div>
 </div>
 </div>
 </footer>

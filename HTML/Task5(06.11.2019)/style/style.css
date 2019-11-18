@@ -195,9 +195,14 @@ body{
 
 .menu__box li:hover .submenu1{
     display:block;
-    
-    
+} 
+.workingLink{
+    background-color: rgb(236, 78, 78);
 
+}
+
+.workingLink a:hover{
+    color: yellow;
 }
 .submenu2{
     display: none;
@@ -414,7 +419,7 @@ body{
 	margin: 0 auto;
 }
 
-#slides article{ /*все изображения справа друг от доруга*/
+#slides .article{ /*все изображения справа друг от доруга*/
 	width: 20%;
 	float: left;
 }
@@ -429,7 +434,7 @@ body{
 	overflow: hidden;
 }
 
-article img{ /*размер изображений слайдера*/
+.article img{ /*размер изображений слайдера*/
 	max-width: 100%;
 }
 
@@ -697,7 +702,7 @@ label, a{ /*при наведении на стрелки или переклю�
 
 .location{
     display:flex;
-    direction: row;
+    flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
     align-items: center;
@@ -765,7 +770,7 @@ iframe{
 }
 
 
-
+a
 .main__advantaged{
     display: grid;
     background: rgba(250, 247, 97, 0.643);
@@ -1016,7 +1021,9 @@ footer{
     padding-top: 20px;
     
 }
-
+.footerImg{
+    width: 100px;
+}
 @media all and (max-width:680px){
     
     .footerLogo{
@@ -1056,8 +1063,3 @@ footer{
       margin: 0 auto;
     }
   }
-
-
-
-
-
