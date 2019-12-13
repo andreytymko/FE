@@ -1,1 +1,1 @@
-<a href = "https://github.com/andreytymko/FE/blob/master/index.htmlgit" target = "_blank">https://github.com/andreytymko/FE/blob/master/index.html</a>
+<a href = "https://github.com/andreytymko/FE/blob/master/index.htmlgit" target ="_blank">https://github.com/andreytymko/FE/blob/master/index.html</a>
