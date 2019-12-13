@@ -1,1 +1,1 @@
-<a href = "google.com">Click</a>
+<a href = "https://github.com/andreytymko/FE/blob/master/index.html" target = "_blank">https://github.com/andreytymko/FE/blob/master/index.html</a>
