@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+  
+}
+.main{
+    position: relative;
+    display: block;
+    max-width: 300px;
+    height:auto;
+    text-align: center;
+    border-radius: 6%;
+    box-shadow: -10px 10px 4px 0 rgb(95, 87, 87);
+    font-family: 'Istok Web', sans-serif;
+    
+}
+.backgroundDiv{
+    width: 500px;
+    height:657px;
+    background:radial-gradient(rgb(68, 67, 67) ,rgb(43, 42, 42));
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 10px;
+}
+.highDiv{
+    background:linear-gradient(to bottom right,orange, red);
+    border-top-left-radius:6%;
+    border-top-right-radius: 6%;
+    
+}
+
+.nikeLogo{
+    width:60px;
+    padding-left: 20px;
+    
+    display: block;
+    text-align: left;
+    
+}
+.highHead{
+    padding-left: 20px;
+    color: white;
+    text-align: left;
+    margin:0;
+}
+.highText{
+    padding:0 20px ;
+    padding-top: 10px;
+    text-align: left;
+    color: white;
+    font-size: 0.8em;
+    
+}
+.TransparentDiv{
+    display: flex;
+    justify-content: start;
+    margin-left: -10px;
+    
+}
+.highTransparentText{
+    font-size: 8em;
+    margin: 0;
+    opacity: 0.1;
+}
+.sneakersDiv{
+    position: absolute;
+    top: -10px;
+    left: 80px;
+    transform: rotate(38deg);
+}
+.sneakers{
+    width: 350px;
+    
+}
+
+
+.lowDiv{
+    background-color: white;
+    display: block;
+    padding-left: 20px;
+    border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%;
+    height: 280px;
+    
+}
+.lowHead{
+    font-family: 'Istok Web', sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.new{
+    background-color: rgb(90, 255, 75);
+    color: white;
+    width: 45px;
+    border-radius:6px ;
+    font-size: 15px;
+    position: absolute;
+    right:35px;
+    bottom: 245px;
+}
+
+.underHead{
+    text-align: left;
+    font-size: 13px;
+}
+.stars{
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.size{
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.chooseSize{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+.numberOfSize{
+    margin-top: 10px;
+
+    
+}
+.numberOfSize:hover{
+    
+    border-radius: 100%;
+    background-color: tomato;
+    cursor: pointer;
+    width: 26px;
+}
+
+.colour{
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 15px;
+    
+}
+
+
+
+
+
+
+
+.radio-item {
+    display: inline-flex;
+    position: relative;
+    padding: 0 0;
+    margin: 10px 10px 10px 10px  ;
+  }
+
+  
+ .chooseColor{
+     width: 100%;
+     display: flex;
+     justify-content: left;
+     align-items: center;
+ }
+
+
+ 
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+
+  
+  .radio-item .orange:before {
+    content: "";
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    content: " ";
+    display: inline-flex;
+    background: orangered;
+
+  }
+  
+
+  
+  .radio-item input[type=radio]:checked + .orange:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top:4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 11px;
+    border: 2px solid orangered;
+    background-color: transparent;
+  }
+
+  .radio-item .green:before {
+    content: "";
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    content: " ";
+    display: inline-flex;
+    background: rgb(76, 216, 76);
+
+  }
+  
+
+  
+  .radio-item input[type=radio]:checked + .green:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top:4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 11px;
+    border: 2px solid rgb(76, 216, 76);
+    background-color: transparent;
+  }
+
+  .radio-item .yellow:before {
+    content: "";
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    content: " ";
+    display: inline-flex;
+    background: yellow;
+
+  }
+  
+
+  
+  .radio-item input[type=radio]:checked + .yellow:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top:4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 11px;
+    border: 2px solid yellow;
+    background-color: transparent;
+  }
+
+    .radio-item label:hover{
+      cursor: pointer;
+  }
+
+  .price{
+    background-color: rgb(90, 255, 75);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius:6px ;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:-20px;
+    bottom: 45px;
+}
+.cost{
+    font-weight: bold;
+}
