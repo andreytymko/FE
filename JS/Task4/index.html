@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess a number</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Guess a number from 1 to 100</h1>
+        <p class="border"></p>
+        <div class="form">
+            <input type="submit" class="guessSubmit" onclick="start()">
+        </div>
+        <div class="result">
+            <p class="lastResult"></p>
+            <input type="button" class="guessed" value="Угадано!" onclick="guessed()"> <input type="button" value="Больше" class="more" onclick="more()"> <input type="button" value="Меньше" class="less" onclick="less()"> <br><br>
+            <p class="guess"></p>
+            <p class="success"></p>
+        </div>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+</html>
